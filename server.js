@@ -17,6 +17,10 @@ app.get('/split/my_split/:number', function(req, res){
     res.status(200).send(split.my_split(req.params.number));
 })
 
+app.get('/split/my_split/:number', function(req, res){
+  res.status(200).send(split.my_split(req.params.number));
+})
+
 exports.stop = function(){
     server.close();
 }

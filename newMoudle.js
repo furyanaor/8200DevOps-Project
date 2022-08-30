@@ -1,6 +1,4 @@
-exports.isEven = (number) => {
-    if(number % 2 === 0) {
-        return true;
-    }
-    return false;
+exports.my_split = (number) => {
+    my_result = number / 2
+    return my_result;
 }

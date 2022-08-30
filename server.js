@@ -14,7 +14,7 @@ app.get('/', function(req, res){
 })
 
 app.get('/split/my_split/:number', function(req, res){
-    res.status(200).send(evenAndOdd.isPrime(req.params.number));
+    res.status(200).send(my_split.sp(req.params.number));
 })
 
 exports.stop = function(){
